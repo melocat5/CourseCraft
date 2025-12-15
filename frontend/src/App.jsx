@@ -13,7 +13,7 @@ function App() {
   const [analysisResult, setAnalysisResult] = useState(null);
   const [analyzing, setAnalyzing] = useState(false);
 
-  const API_BASE_URL = 'http://localhost:5000/api'; 
+  const API_BASE_URL = 'http://18.117.96.80:5000/api';
   const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB limit for S3
 
   useEffect(() => {
