@@ -144,7 +144,7 @@ function App() {
 
     try {
       setAnalyzing(true);
-      const response = await fetch(`${API_BASE_URL}/events/analyze?date=${analysisDate}`);
+      const response = await fetch(`${API_BASE_URL}/events/analyze/date=${analysisDate}`);
       
       if (response.ok) {
         const data = await response.json();
